@@ -1,0 +1,285 @@
+@media screen and (min-width: 768px) {
+    .navbar{
+        height: 44.87px;
+       }
+  }
+
+.fa-apple{
+    font-size: 91%;
+}
+
+  @media screen and (max-width: 991px) /*medium se choti ke liye*/ {
+    .nfbt834px /*Medium wala navbar*/{
+        display: none;
+
+    }
+    .icons > a{
+        font-size: 18px;
+    }
+    .small-nav-apple-icon-container{
+       margin-top: -1%;
+    }
+    .smallnav-apple-icon{
+        font-size: 100%;
+        color: white;
+    }
+  }
+
+@media screen and (min-width: 992px) /*medium aur medium se bari ke liye*/ {
+    .nflt834px /*Medium se chota wala navbar*/{
+        display: none;
+    }   
+}
+
+.big-section1{
+    background-image: url("images/Screenshot\ 2024-02-18\ 192035\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    display:none
+   
+}
+.small-section1{
+    background-image: url("images/Screenshot\ 2024-02-18\ 195137.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 495px;
+    background-position: center;
+    display: none;
+}
+@media screen and (max-width: 734px)  /* is px se choti screen ke liye */ {
+    .big-section1{
+        display: none;
+    }
+    .small-section1{
+        display: block;
+    }
+   
+  }
+
+@media screen and (min-width: 734px) /* is px se bari screen ke liye */ {
+   .smallsection1{
+       display: none;
+   }
+   .big-section1{
+    display: block;
+   }
+}
+
+.section2image2{
+    display:none
+}
+.section2image3{
+    display:none
+}
+.section2image4{
+    display:none
+}
+
+.smallvisionproimage{
+    display: none;
+}
+.biggerthansmallvisionproimage{
+  display: none;
+}
+
+
+.card1{
+    background-image: url("images/card1imagmedium.jpg   ");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+.card2{
+    background-image: url("images/card2image.jpg   ");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+}
+@media screen and (max-width: 734px){
+    .card1{
+        background-image: url("images/card1imagesmall.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .card2{
+        background-image: url("images/card2imagesmall.jpg   ");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin-top: -70%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 687px){
+    .card2{
+        background-image: url("images/card2imagesmall.jpg   ");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        margin-top: -30%;
+    }
+    .card1col{
+       height: 73vh ;
+    }
+    .card1{
+        background-size: 150%;
+    }
+    .card2h2{
+        font-size: 200%;
+    }
+    .card2div{
+        padding-top: -20%;
+    }
+    .card1{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 734px) and (max-width:1068px){
+    .section2image1{
+        display: none;
+    }
+    .section2image2{
+        display: block;
+    }
+}
+@media screen and (min-width:450px) and (max-width:734px){
+    .section2image1{
+        display: none;
+    }
+    .section2image2{
+        display: none;
+    }
+    .section2image3{
+        display: block;
+    }
+
+    .mediumvisionproimage{
+        display: none;
+    }
+    .biggerthansmallvisionproimage{
+        display: block;
+    }
+}
+@media screen and (max-width:500px){
+    .section2image1{
+        display: none;
+    }
+    .section2image2{
+        display: none;
+    }
+    .section2image3{
+        display: none;
+    }
+    .section2image4{
+        display: block;
+    }
+   
+    .smallvisionproimage{
+        display: block;
+    }
+    .mediumvisionproimage{
+        display: none;
+    }
+    .biggerthansmallvisionproimage{
+        display: none;
+    }
+    .card1h2{
+        margin-top: -10%;
+    }
+    .card1div{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width:734px){
+    .card1{
+        height: 450px;
+    }
+}
+@media screen and (min-width: 735px) and (max-width:767px){
+    .card1{
+        background-size: cover;
+    }
+}
+.card3{
+    background-image: url("images/card3image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.card4{
+    background-image: url("images/card4image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.card5{
+    background-image: url("images/card5image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.card6{
+    background-image: url("images/card6image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        position: absolute;
+        top: 17rem;
+    }
+    .captions1{
+        height: 4rem;
+    }
+    .carousel-2-p{
+        margin-top: -20%;
+    }
+    .carousel-3-p{
+        margin-top: -12%;
+    }
+    .carousel-5-p{
+        margin-top: -12%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 767px){
+    .carousel-button{
+        margin: auto;
+        left: 4vh;
+        top: 2vh;
+        position: absolute;
+    }
+    .carousel-indicators{
+        visibility: hidden;
+    }
+}
+.footer-li > ul > li{
+    list-style-type: none;
+    padding-bottom: 0.4rem;
+}
+.smallscreenlinks{
+    display: none;
+}
+@media screen and (max-width: 833px) {
+    .biggerthansmallscreenlinks {
+        display: none;
+    }
+    .smallscreenlinks{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 370px){
+    .smallscreenarrowimg{
+        position: absolute;
+        left: 75%;
+    }
+}
